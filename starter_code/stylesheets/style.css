@@ -8,3 +8,158 @@ paragraph yellow: #ECB12F
 links blue: #2E71A6
 footer links grey: #454245
 */
+* {
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul, li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+a:hover, button:hover {
+    cursor: pointer;
+}
+
+/* Iteração 1 768px */
+
+.navegador{
+    background-color: #540B51;
+}
+    .navegador-principal{
+
+    }
+        .navegador-lista{
+
+        }
+    .navegador-botoes{
+
+    }
+        .navegador-botao-busca{
+
+        }
+        .navegador-botao-menu{
+
+        }
+        .hidden{
+
+        }
+
+
+.capa{
+
+}
+    .capa-titulo{
+
+    }
+        .capa-botoes{
+
+        }
+            .capa-botao-email{
+
+            }
+            .capa-botao-google{
+
+            }
+    .capa-imagem{
+
+    }
+
+.principal{
+
+}
+    .section1{
+
+    }
+        .section1-empresas{
+
+        }
+    .section2{
+
+    }   .section2-imagem{
+
+        }
+        .section2-texto{
+
+        }
+    .section3{
+
+    }
+        .section3-texto{
+
+        }
+        .section3-imagem{
+
+        }
+    .section4{
+
+    }
+        .section4-imagem{
+
+        }
+        .section4-texto{
+
+        }
+    .section5{
+
+    }
+        .section5-botoes{
+
+        }
+            .section5-botao-enterprise{
+
+            }
+            .section-botao-sales{
+
+            }
+        .section5-lista{
+
+        }
+    .section6{
+
+    }
+     .section6-botao-try{
+
+     }  
+     .section6-botao-talk{
+
+     } 
+.rodape{
+
+}
+    .rodape-colunas{
+
+    }
+    .rodape-lista-final{
+
+    }
+    .rodape-lista-icones{
+
+    }
+    .small{
+        
+    }
+
+
+
+
+/* Iteração 2 */
+@media all and (min-width: 768px) and (max-width: 1024px) {
+}
+
+/* Iteração 3 */
+@media all and (min-width: 1025px) and (max-width: 1440px) {
+}
+
+/* Iteração 4 */
+@media all and (min-width: 1441px) {
+}
