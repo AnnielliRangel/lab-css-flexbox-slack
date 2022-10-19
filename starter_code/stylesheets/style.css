@@ -8,9 +8,8 @@ paragraph yellow: #ECB12F
 links blue: #2E71A6
 footer links grey: #454245
 */
-* {
-    box-sizing: border-box;
-}
+
+* 
 
 a {
     text-decoration: none;
@@ -34,58 +33,127 @@ a:hover, button:hover {
 
 .navegador{
     background-color: #540B51;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    height: 50px;
+    
+
 }
-    .navegador-principal{
+    .navegador-principal{  
+        display: flex;    
 
     }
+            .imagem-navegador{
+                height: 36px;
+                
+            }
+        
         .navegador-lista{
+            display:none;
 
         }
-    .navegador-botoes{
-
+    .navegador-botoes button {
+        
+        padding:0;
+        background: none;
+        writing-mode: none;
+        color: none;
+        font: none;
+        border: none;
+        margin: 10px;
+               
     }
-        .navegador-botao-busca{
-
-        }
-        .navegador-botao-menu{
-
-        }
+        
         .hidden{
+            display: none;
 
         }
 
 
 .capa{
+    display: flex;
+    flex-direction: column;
+    background-color: #540B51;
+    color: aliceblue;
 
 }
     .capa-titulo{
+        text-align: center;
+        text-decoration: none;              
 
     }
-        .capa-botoes{
+        .p-capa{
+            color:yellow;
+            font-size: x-large;
+        }
+        span{
+            color:aliceblue;
+        }
+        .h-capa{
+            font-size: 80px;
+        }
 
+        .capa-botoes{
+            display: flex;
+            flex-direction: column;
+            padding: 30px;                  
         }
             .capa-botao-email{
-
+                padding: 10px;
+                margin-bottom: 10px;                                
             }
             .capa-botao-google{
-
+                padding: 10px;
+                background-color: #4285F4;
+                border: 0;             
             }
+                .imagem-google{
+                    height: 15px;
+                    background-color: aliceblue;
+                    
+
+                }
     .capa-imagem{
 
     }
-
-.principal{
-
-}
-    .section1{
-
-    }
-        .section1-empresas{
+        .imagem-capa{
+            height: 670px;
 
         }
+
+.principal{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #F3EAE2;
+
+}
+    .section1 {
+        padding: 10px;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+        .p-section1{
+            text-transform: uppercase;
+            align-items: center;
+            color: #191817;                        
+        }
+        .section1-empresas img{
+            width: 150px;
+            
+        }
+        
+        
+             
+        
+
     .section2{
 
-    }   .section2-imagem{
+    }   .section2-imagem > img{
+        height: 480px;
+        ;
 
         }
         .section2-texto{
@@ -97,13 +165,16 @@ a:hover, button:hover {
         .section3-texto{
 
         }
-        .section3-imagem{
+        .section3-imagem img{
+            height: 480px;
 
         }
     .section4{
 
     }
-        .section4-imagem{
+        .section4-imagem img{
+            height: 480px;
+
 
         }
         .section4-texto{
@@ -134,9 +205,11 @@ a:hover, button:hover {
 
      } 
 .rodape{
+    display: flex;
 
 }
     .rodape-colunas{
+        display: flex;
 
     }
     .rodape-lista-final{
@@ -146,7 +219,7 @@ a:hover, button:hover {
 
     }
     .small{
-        
+
     }
 
 
